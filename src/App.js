@@ -7,6 +7,7 @@ import {
 import './App.css';
 import Search from './Search';
 import Favorites from './Favorites';
+import ListDetails from './ListDetails.js';
 
 
 export default class App extends Component {
@@ -17,6 +18,7 @@ export default class App extends Component {
           </header>
           <Router>
              <Switch>
+               <Route exact path="/details/:charName" component={ListDetails}/>
                <Route exact path="/" component={Search} />
                <Route path="/" component={Favorites} />
              </Switch>
