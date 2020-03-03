@@ -1,0 +1,18 @@
+.charContainer{
+    width: 160px;
+    display: inline-grid;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.charImage{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.charName{
+    text-align: center;
+    font-size: 14px;
+}
+
